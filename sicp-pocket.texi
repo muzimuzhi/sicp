@@ -6650,6 +6650,7 @@ comments: ``By testing the signs of the endpoints of the intervals, it is
 possible to break @code{mul-interval} into nine cases, only one of which
 requires more than two multiplications.''  Rewrite this procedure using Ben's
 suggestion.
+@end quotation
 
 After debugging her program, Alyssa shows it to a potential user, who complains
 that her program solves the wrong problem.  He wants a program that can deal
@@ -6678,7 +6679,6 @@ situations usually involve measurements with only a small uncertainty, measured
 as the ratio of the width of the interval to the midpoint of the interval.
 Engineers usually specify percentage tolerances on the parameters of devices,
 as in the resistor specifications given earlier.
-@end quotation
 
 @quotation
 @strong{@anchor{Exercise 2.12}Exercise 2.12:} Define a constructor
@@ -6694,6 +6694,7 @@ small percentage tolerances there is a simple formula for the approximate
 percentage tolerance of the product of two intervals in terms of the tolerances
 of the factors.  You may simplify the problem by assuming that all numbers are
 positive.
+@end quotation
 
 After considerable work, Alyssa P. Hacker delivers her finished system.
 Several years later, after she has forgotten all about it, she gets a frenzied
@@ -6748,7 +6749,6 @@ parallel-resistors formula differently:
 
 Lem complains that Alyssa's program gives different answers for the two ways of
 computing. This is a serious complaint.
-@end quotation
 
 @quotation
 @strong{@anchor{Exercise 2.14}Exercise 2.14:} Demonstrate that Lem is right.
