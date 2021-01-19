@@ -2983,7 +2983,8 @@ contained within the original frame.
   </span><span class="opn">(</span><span class="kwd">lambda</span><span class="pln"> </span><span class="opn">(</span><span class="pln">frame</span><span class="clo">)</span><span class="pln">
     </span><span class="opn">(</span><span class="kwd">let</span><span class="pln"> </span><span class="opn">((</span><span class="pln">m </span><span class="opn">(</span><span class="pln">frame-coord-map frame</span><span class="clo">)))</span><span class="pln">
       </span><span class="opn">(</span><span class="kwd">let</span><span class="pln"> </span><span class="opn">((</span><span class="pln">new-origin </span><span class="opn">(</span><span class="pln">m origin</span><span class="clo">)))</span><span class="pln">
-        </span><span class="opn">(</span><span class="pln">painter </span><span class="opn">(</span><span class="pln">make-frame new-origin
+        </span><span class="opn">(</span><span class="pln">painter </span><span class="opn">(</span><span class="pln">make-frame 
+                  new-origin
                   </span><span class="opn">(</span><span class="pln">sub-vect </span><span class="opn">(</span><span class="pln">m corner1</span><span class="clo">)</span><span class="pln"> 
                             new-origin</span><span class="clo">)</span><span class="pln">
                   </span><span class="opn">(</span><span class="pln">sub-vect </span><span class="opn">(</span><span class="pln">m corner2</span><span class="clo">)</span><span class="pln">
