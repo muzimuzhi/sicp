@@ -10665,7 +10665,8 @@ and whose @code{cdr} is the list of elements not included in the tree.
              (quotient (- n 1) 2)))
         (let ((left-result 
                (partial-tree 
-                elts left-size)))
+                elts
+                left-size)))
           (let ((left-tree 
                  (car left-result))
                 (non-left-elts 
