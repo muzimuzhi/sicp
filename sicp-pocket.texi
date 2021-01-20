@@ -10655,7 +10655,8 @@ and whose @code{cdr} is the list of elements not included in the tree.
 @lisp
 (define (list->tree elements)
   (car (partial-tree 
-        elements (length elements))))
+        elements
+        (length elements))))
 
 (define (partial-tree elts n)
   (if (= n 0)
